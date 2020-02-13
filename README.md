@@ -62,7 +62,7 @@ We define a 3-D Clifford Space as follows:
 >>> cl3 = cn.Cl(3)
 ```
 
-with $e_1, e_2, e_3$ its 1-D basis *vectors*, $e_{12}, e_{13}, e_{23}$ its 2-D basis *bivectors*, and $e_{123}$ its 3-D basis *trivector*.
+with <img src="https://latex.codecogs.com/svg.latex?\Large&space;e_1, e_2, e_3> its 1-D basis *vectors*, $e_{12}, e_{13}, e_{23}$ its 2-D basis *bivectors*, and $e_{123}$ its 3-D basis *trivector*.
 
 Consequently, any 1-blade *vector* $v​$ of this space is described as a linear combination of the above basis 1-D basis elements.
 
