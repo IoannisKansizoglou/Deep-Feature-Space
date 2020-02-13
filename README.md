@@ -17,10 +17,11 @@
 * A brief demonstration of the results regarding the feature vectors' distribution and its main properties.
 <br>
 <i>The presented work includes a part of the implementation from our paper entitled:</i>
-@misc{
-title        = {Deep Feature Space: A Geometrical Perspective}
-author       = {Ioannis Kansizoglou, Loukas Bampis, and Antonios Gasteratos},
-}
+
+    {
+		Author = {Ioannis Kansizoglou, Loukas Bampis, and Antonios Gasteratos},
+		Title = {Deep Feature Space: A Geometrical Perspective}
+    }
 <br>
 
 
