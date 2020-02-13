@@ -139,6 +139,7 @@ Any <i>multivector</i>, which is comprised of a linear combination of different 
 <ul>
 <i>Inner  Product, <b>v</b> ** <b>w</b></i>     
 </ul>
+
 ```python
 >>> (v**w).coordinates
 # Out[8]: {'': 2.0}
