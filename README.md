@@ -1,8 +1,10 @@
 <p align='right'>
     <img align='left' width='15%' src='Images/OutputPolar_b.svg'>
 	<h1>
-    	Deep Feature Space: A Geometrical Perspective
+    	Deep Feature Space:<br>
+	A Geometrical Perspective
 	</h1>
+	<br>
 </p>
 
 
@@ -13,10 +15,11 @@
 * A library for executing operations in higher dimensions with *Clifford Algebra* and *Python*,
 * A simple GUI for calculating the Softmax graph under scaling and rotation of the input feature vector,
 * A brief demonstration of the results regarding the feature vectors' distribution and its main properties.
+<br>
 
 
 
-<h5>Feature Space division by three target classes in 3-D</h5>
+<h5>Feature Space division by three target classes in 3-D</h5><br>
 <table>
     <tr align='center'>
         <td align='center'>
@@ -34,15 +37,13 @@
             3-D Space Division (<i>ReLU</i> Activation)
         </td>
     </tr>
-</table>
+</table><br>
 
 
 
 
 
 <h4>Clifford Library</h4>
-
-
 
 
 <p align='center'><img width='80%' src='Images/Bivector_s.svg'></p>
@@ -62,9 +63,9 @@ We define a 3-D Clifford Space as follows:
 >>> cl3 = cn.Cl(3)
 ```
 
-with https://latex.codecogs.com/gif.latex?%5Cinline%20e_1%2C%20e_2%2C%20e_3 its 1-D basis *vectors*, $e_{12}, e_{13}, e_{23}$ its 2-D basis *bivectors*, and $e_{123}$ its 3-D basis *trivector*.
+with ![](http://www.sciweavers.org/upload/Tex2Img_1581628943/eqn.png) its 1-D basis *vectors*, ![](http://www.sciweavers.org/upload/Tex2Img_1581628899/eqn.png) its 2-D basis *bivectors*, and ![](http://www.sciweavers.org/upload/Tex2Img_1581628982/eqn.png) its 3-D basis *trivector*.
 
-Consequently, any 1-blade *vector* $v​$ of this space is described as a linear combination of the above basis 1-D basis elements.
+Consequently, any 1-blade *vector* *v* of this space is described as a linear combination of the above basis 1-D basis elements.
 
 ```python
 >>> v = cn.ClVector(cl3,[1,2,3])
@@ -74,7 +75,7 @@ Consequently, any 1-blade *vector* $v​$ of this space is described as a linear
 
 
 
-The same applies for any 2-blade *bivector* $B$, which is composed by a linear combination of the basis bivectors.
+The same applies for any 2-blade *bivector* *B*, which is composed by a linear combination of the basis bivectors.
 
 ```python
 >>> v = cn.ClVector(cl3,[1,2,3])
@@ -148,7 +149,7 @@ Any <i>multivector</i>, which is comprised of a linear combination of different 
 
 
 <ul>
-<i>Definition: <b>v</b> * <b>w</b></i> = <b>v</b> ** <b>w</b></i> + <b>v</b> ^ <b>w</b></i>     
+<i>Definition: <b>v</b> * <b>w</b></i> = <b>v**w</b></i> + <b>v^w</b></i>     
 </ul>
 
 ```python
@@ -167,10 +168,12 @@ Any <i>multivector</i>, which is comprised of a linear combination of different 
 </div>
 
 
-We introduce a simple application to calculate the diagram of the Softmax Function over the feature vectors' norm $R$ and orientation $\theta_i$. This is the angle of the feature vector $\bar{a}_e$ with the weight vector $\bar{w}_i$ of the target class $i$. The rest of the classes' weights are projected onto the unit plane $\hat{P}$ defined by the feature vector and the weight of the dominant class. 
-$$
-\hat{P}=\frac{\bar{a}_e\wedge\bar{w}_i}{\|\bar{a}_e\wedge\bar{w}_i\|}
-$$
+We introduce a simple application to calculate the diagram of the Softmax Function over the feature vectors' norm *R* and orientation ![](http://www.sciweavers.org/upload/Tex2Img_1581629059/eqn.png). This is the angle of the feature vector ![](http://www.sciweavers.org/upload/Tex2Img_1581629078/eqn.png) with the weight vector ![](http://www.sciweavers.org/upload/Tex2Img_1581629108/eqn.png) of the target class *i*. The rest of the classes' weights are projected onto the unit plane ![](http://www.sciweavers.org/upload/Tex2Img_1581629174/eqn.png) defined by the feature vector and the weight of the dominant class. 
+
+<div align='center'>
+    	<img src='http://www.sciweavers.org/upload/Tex2Img_1581629205/eqn.png' width='15%' align='center'>
+	<br>
+</div>
 
 
 Below, a random 13-D Feature Space is created for a 5-class classification task.
@@ -179,16 +182,18 @@ Below, a random 13-D Feature Space is created for a 5-class classification task.
 
 <div align='center'>
     <img src='Images/GUI1.png' width='95%'>
+    <br>
 </div>
 
 
 
-The 1<sup>st</sup> row demonstrates the diagram of the softmax outputs under $R$ and $\theta_i$ variations, while their corresponding partial deliverables are calculated and illustrated in row 2. A more simplistic example is illustrated below with 3 target classes in a 20-D Feature Space.
+The 1<sup>st</sup> row demonstrates the diagram of the softmax outputs under *R* and ![](http://www.sciweavers.org/upload/Tex2Img_1581629059/eqn.png) variations, while their corresponding partial deliverables are calculated and illustrated in row 2. A more simplistic example is illustrated below with 3 target classes in a 20-D Feature Space.
 
 
 
 <div align='center'>
     <img src='Images/GUI2.png' width='95%'>
+    <br>
 </div>
 
 
@@ -199,7 +204,7 @@ The values of the feature vector and the classes weights can also be loaded from
 
 
 
-<h4>Results from Paper</h4>
+<br><h4>Results from Paper</h4><br>
 
 
 
@@ -216,7 +221,7 @@ The values of the feature vector and the classes weights can also be loaded from
         </td>
     </tr>
 </table>
-The Output's Neurons diagram over feature vector rotation and scaling, as well as a multi-variable function.
+The Output's Neurons diagram over feature vector rotation and scaling, as well as a multi-variable function.<br>
 
 
 
@@ -234,8 +239,7 @@ The Output's Neurons diagram over feature vector rotation and scaling, as well a
         </td>
     </tr>
 </table>
-
-The Softmax Function diagram over feature vector rotation and scaling, as well as a multi-variable function.
+The Softmax Function diagram over feature vector rotation and scaling, as well as a multi-variable function.<br>
 
 
 
@@ -243,8 +247,6 @@ The last multi-variable diagram of the softmax function can be represented on a 
 
 <div align='center'>
     <img src='Images/OutputPolar_s.svg' width='50%'>
+    <br>
 </div>
-The higher the $R$ the more the softmax output of the corresponding dominant class (for each $\theta_r$)  approximates the unit circle (*black*). 
-
-
-
+The higher the $R$ the more the softmax output of the corresponding dominant class for each ![](http://www.sciweavers.org/upload/Tex2Img_1581629822/eqn.png) approximates the unit circle. 
