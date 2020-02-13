@@ -46,7 +46,7 @@
 <h4>Clifford Library</h4>
 
 
-<p align='center'><img width='80%' src='Images/Bivector_s.svg'></p>
+<p align='center'><img width='80%' src='Images/Bivector_s.png'></p>
 
 
 
