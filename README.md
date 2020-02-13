@@ -16,7 +16,12 @@
 * A simple GUI for calculating the Softmax graph under scaling and rotation of the input feature vector,
 * A brief demonstration of the results regarding the feature vectors' distribution and its main properties.
 <br>
-
+<i>The presented work includes a part of the implementation from our paper entitled:</i>
+@misc{
+title        = {Deep Feature Space: A Geometrical Perspective}
+author       = {Ioannis Kansizoglou, Loukas Bampis, and Antonios Gasteratos},
+}
+<br>
 
 
 <h5>Feature Space division by three target classes in 3-D</h5><br>
@@ -206,7 +211,7 @@ The values of the feature vector and the classes weights can also be loaded from
 
 
 
-<br><h4>Results from Paper</h4><br>
+<br><h4>Distribution Results</h4><br>
 
 
 
