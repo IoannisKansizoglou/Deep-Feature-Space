@@ -171,23 +171,25 @@ Any <i>multivector</i>, which is comprised of a linear combination of different 
 We introduce a simple application to calculate the diagram of the Softmax Function over the feature vectors' norm *R* and orientation ![](http://www.sciweavers.org/upload/Tex2Img_1581629059/eqn.png). This is the angle of the feature vector ![](http://www.sciweavers.org/upload/Tex2Img_1581629078/eqn.png) with the weight vector ![](http://www.sciweavers.org/upload/Tex2Img_1581629108/eqn.png) of the target class *i*. The rest of the classes' weights are projected onto the unit plane ![](http://www.sciweavers.org/upload/Tex2Img_1581629174/eqn.png) defined by the feature vector and the weight of the dominant class. 
 
 <div align='center'>
-    	<img src='http://www.sciweavers.org/upload/Tex2Img_1581629205/eqn.png' width='15%' align='center'>
+    	<br>
+	<img src='http://www.sciweavers.org/upload/Tex2Img_1581629205/eqn.png' width='10%' align='center'>
 	<br>
 </div>
 
 
-Below, a random 13-D Feature Space is created for a 5-class classification task.
+<br>Below, a random 13-D Feature Space is created for a 5-class classification task.
 
 
 
 <div align='center'>
+    <br>
     <img src='Images/GUI1.png' width='95%'>
     <br>
 </div>
 
 
 
-The 1<sup>st</sup> row demonstrates the diagram of the softmax outputs under *R* and ![](http://www.sciweavers.org/upload/Tex2Img_1581629059/eqn.png) variations, while their corresponding partial deliverables are calculated and illustrated in row 2. A more simplistic example is illustrated below with 3 target classes in a 20-D Feature Space.
+The 1<sup>st</sup> row demonstrates the diagram of the softmax outputs under *R* and ![](http://www.sciweavers.org/upload/Tex2Img_1581629059/eqn.png) variations, while their corresponding partial deliverables are calculated and illustrated in row 2. A more simplistic example is illustrated below with 3 target classes in a 20-D Feature Space.<br>
 
 
 
@@ -198,7 +200,7 @@ The 1<sup>st</sup> row demonstrates the diagram of the softmax outputs under *R*
 
 
 
-The values of the feature vector and the classes weights can also be loaded from a local file.
+The values of the feature vector and the classes weights can also be loaded from a local file.<br>
 
 
 
@@ -221,7 +223,7 @@ The values of the feature vector and the classes weights can also be loaded from
         </td>
     </tr>
 </table>
-The Output's Neurons diagram over feature vector rotation and scaling, as well as a multi-variable function.<br>
+The Output's Neurons diagram over feature vector rotation and scaling, as well as a multi-variable function.<br><br>
 
 
 
@@ -239,7 +241,7 @@ The Output's Neurons diagram over feature vector rotation and scaling, as well a
         </td>
     </tr>
 </table>
-The Softmax Function diagram over feature vector rotation and scaling, as well as a multi-variable function.<br>
+The Softmax Function diagram over feature vector rotation and scaling, as well as a multi-variable function.<br><br>
 
 
 
@@ -249,4 +251,5 @@ The last multi-variable diagram of the softmax function can be represented on a 
     <img src='Images/OutputPolar_s.svg' width='50%'>
     <br>
 </div>
-The higher the $R$ the more the softmax output of the corresponding dominant class for each ![](http://www.sciweavers.org/upload/Tex2Img_1581629822/eqn.png) approximates the unit circle. 
+
+The higher the <i>R</i> the more the softmax output of the corresponding dominant class (for each rotation angle) approximates the unit circle. 
