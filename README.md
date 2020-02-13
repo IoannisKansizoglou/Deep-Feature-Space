@@ -12,9 +12,9 @@
 
 <h5> In this repository you can find:</h5>
 
-* A library for executing operations in higher dimensions with *Clifford Algebra* and *Python*,
-* A simple GUI for calculating the Softmax graph under scaling and rotation of the input feature vector,
-* A brief demonstration of the results regarding the feature vectors' distribution and its main properties.
+* a library for executing operations in higher dimensions with *Clifford Algebra* and *Python*,
+* a simple GUI for calculating the Softmax graph under scaling and rotation of the input feature vector, and
+* a brief demonstration of the results regarding the feature vectors' distribution and its main properties.
 <br>
 <i>The presented work includes a part of the implementation from our paper entitled:</i>
 
